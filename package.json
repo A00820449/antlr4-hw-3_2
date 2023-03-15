@@ -1,0 +1,19 @@
+{
+  "name": "antlr4-hw-3_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A00820449/antlr4-hw-3_2.git"
+  },
+  "author": "A00820449",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A00820449/antlr4-hw-3_2/issues"
+  },
+  "homepage": "https://github.com/A00820449/antlr4-hw-3_2#readme"
+}
