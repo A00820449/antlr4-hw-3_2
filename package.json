@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "antlr4 -Dlanguage=JavaScript Grammar.g4 -o lib"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/A00820449/antlr4-hw-3_2/issues"
   },
-  "homepage": "https://github.com/A00820449/antlr4-hw-3_2#readme"
+  "homepage": "https://github.com/A00820449/antlr4-hw-3_2#readme",
+  "type": "module",
+  "dependencies": {
+    "antlr4": "^4.12.0"
+  }
 }
