@@ -1,2 +1,5 @@
 grammar Grammar;
-start: 'test';
+start: 'test' EOF;
+
+WS: [ \r\n\t]+ -> skip;
+ERR_TOKEN: .;
