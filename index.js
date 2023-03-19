@@ -11,7 +11,7 @@ const tokens = new antlr4.CommonTokenStream(lexer)
 const parser = new GrammarParser(tokens)
 
 parser.buildParseTrees = true
-parser._errHandler = new antlr4.error.BailErrorStrategy()
+parser._errHandler = new antlr4.error.BailErrorStrategy() /* Aborts parsing when an error is encountered */
 
 try {
     parser.start()
